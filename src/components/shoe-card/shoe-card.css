@@ -1,0 +1,44 @@
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    background-color: #F9D689;
+    margin: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    overflow: hidden;
+    text-decoration: none;
+
+}
+
+.card-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.shoe-img {
+    margin: 10px auto;
+    width: 80%;
+    height: auto; /* Maintain aspect ratio */
+    max-height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #D9B56A;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.shoe-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+ p{
+    font-weight: bold;
+    font-size: 25px;
+    color: #BF360C;
+
+}

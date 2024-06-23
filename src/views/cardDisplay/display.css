@@ -1,0 +1,64 @@
+.selected-shoe {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #6B8A7A;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .shoe-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .card-detail {
+    margin: 20px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #B7B597; /* Gold color for better visibility */
+  }
+  
+  .price {
+    font-size: 29px;
+    font-weight: bold;
+    color: #F6DCAC; /* A more vibrant shade of red-orange */
+    margin: 20px 0;
+  }
+  
+  .delivery-details, .product-details {
+    
+    display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  justify-content: center;
+  }
+  
+  .delivery-details .list-title, .product-details .list-title {
+    font-weight: bold;
+  color: #FFD700; /* Gold color */
+  margin-right: 5px;
+
+  }
+  
+  .delivery-details li, .product-details li {
+    margin: 5px 10px; /* Adjust margin for spacing */
+  font-size: 16px;
+  font-weight: bold;
+  color: #FFD700;
+  }
+  
+  .not-found {
+    text-align: center;
+    padding: 50px;
+    font-size: 24px;
+    color: #FF4500;
+  }
+  
