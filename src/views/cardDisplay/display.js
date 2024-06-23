@@ -21,7 +21,7 @@ function Display() {
   }
 
   return (
-    <>
+    <div className='display-bg'>
       <Navbar />
       <div className="selected-shoe">
         <h1>{selectedShoe.brand}</h1>
@@ -43,7 +43,7 @@ function Display() {
           <li><span className='list-title'>Country of Origin:</span> {selectedShoe.productDetails.countryOrigin}</li>
         </ol>
       </div>
-    </>
+    </div>
   );
 }
 
