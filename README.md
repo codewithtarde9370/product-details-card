@@ -11,8 +11,7 @@ Welcome to **ShoeDetailCard**, an engaging application that provides detailed vi
 - [Data Structure](#data-structure)
 - [Technologies Used](#technologies-used)
 - [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Description
 
